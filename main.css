@@ -1,6 +1,42 @@
 /*Styles used for main*/
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 12px;
+    margin: 40px;
+}
+
 body{
-    background-color: black;
+    background-color: rgb(94, 149, 23);
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: rgb(0, 0, 0);
+
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+h1 {
+    background-color: white;
+}
+
+p {
+    background-color: white;
+}
+
+ul {
+    background-color: white;
+}
+
+h2 {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size:x-large;
+    padding: 20px;
 }
